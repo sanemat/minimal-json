@@ -1,3 +1,17 @@
+GIT
+  remote: git://github.com/google/google-api-ruby-client.git
+  revision: e28035d7adcbd83eca4f5b566785ccf7bd2915db
+  specs:
+    google-api-client (0.4.7)
+      addressable (>= 2.3.2)
+      autoparse (>= 0.3.2)
+      extlib (>= 0.9.15)
+      faraday (~> 0.8.1)
+      launchy (>= 2.1.1)
+      multi_json (>= 1.0.0)
+      signet (>= 0.4.1)
+      uuidtools (>= 2.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -49,15 +63,6 @@ GEM
     extlib (0.9.15)
     faraday (0.8.4)
       multipart-post (~> 1.1)
-    google-api-client (0.4.7)
-      addressable (>= 2.3.2)
-      autoparse (>= 0.3.2)
-      extlib (>= 0.9.15)
-      faraday (~> 0.8.1)
-      launchy (>= 2.1.1)
-      multi_json (>= 1.0.0)
-      signet (>= 0.4.1)
-      uuidtools (>= 2.1.0)
     hike (1.2.1)
     i18n (0.6.1)
     journey (1.0.4)
@@ -141,7 +146,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  google-api-client
+  google-api-client!
   jquery-rails
   multi_json (= 1.0.3)
   pry-rails

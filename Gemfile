@@ -22,7 +22,7 @@ end
 
 gem 'jquery-rails'
 gem 'pry-rails'
-gem 'google-api-client'
+gem 'google-api-client', :git => 'git://github.com/google/google-api-ruby-client.git'
 gem 'multi_json', '1.0.3'
 
 # To use ActiveModel has_secure_password
